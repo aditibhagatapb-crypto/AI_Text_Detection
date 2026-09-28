@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Detect | Research</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <a href="/" class="logo">
+        AI<span>Detect</span>
+    </a>
+
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/detector">Detector</a>
+        <a href="/research">Research</a>
+        <a href="/about">About</a>
+    </div>
+
+</nav>
+
+
+<section class="content-page">
+
+    <div class="tag">
+        RESEARCH FOUNDATION
+    </div>
+
+    <h1>
+        Research Papers
+    </h1>
+
+    <p class="intro">
+        This project explores methods for detecting
+        AI-generated text using deep learning,
+        Transformer models and statistical approaches.
+        The following research papers provide the
+        academic foundation for the project.
+    </p>
+
+
+    <!-- PAPER 1 -->
+
+    <div class="paper-card">
+
+        <span class="paper-number">
+            PAPER 01 • 2023
+        </span>
+
+        <h2>
+            DetectGPT: Zero-Shot Machine-Generated
+            Text Detection using Probability Curvature
+        </h2>
+
+        <p>
+            <strong>Authors:</strong>
+            Eric Mitchell, Yoonho Lee, Alexander Khazatsky,
+            Christopher D. Manning and Chelsea Finn
+        </p>
+
+        <p>
+            DetectGPT proposes a zero-shot method for
+            identifying machine-generated text by examining
+            the curvature of a language model's log
+            probability function. The approach does not
+            require training a separate classifier.
+        </p>
+
+        <div class="paper-tags">
+            <span>LLM Detection</span>
+            <span>Zero-Shot</span>
+            <span>Probability</span>
+            <span>Machine-Generated Text</span>
+        </div>
+
+    </div>
+
+
+    <!-- PAPER 2 -->
+
+    <div class="paper-card">
+
+        <span class="paper-number">
+            PAPER 02 • 2023
+        </span>
+
+        <h2>
+            Fast-DetectGPT: Efficient Zero-Shot Detection
+            of Machine-Generated Text via Conditional
+            Probability Curvature
+        </h2>
+
+        <p>
+            <strong>Authors:</strong>
+            Guangsheng Bao, Yanbin Zhao, Zhiyang Teng,
+            Linyi Yang and Yue Zhang
+        </p>
+
+        <p>
+            Fast-DetectGPT improves the efficiency of
+            probability-curvature-based detection.
+            The paper introduces conditional probability
+            curvature and evaluates the method across
+            multiple datasets and source language models.
+        </p>
+
+        <div class="paper-tags">
+            <span>Deep Learning</span>
+            <span>Zero-Shot</span>
+            <span>Probability Curvature</span>
+            <span>Text Detection</span>
+        </div>
+
+    </div>
+
+
+    <!-- PAPER 3 -->
+
+    <div class="paper-card">
+
+        <span class="paper-number">
+            PAPER 03 • 2024
+        </span>
+
+        <h2>
+            Spotting LLMs With Binoculars:
+            Zero-Shot Detection of Machine-Generated Text
+        </h2>
+
+        <p>
+            <strong>Authors:</strong>
+            Abhimanyu Hans, Avi Schwarzschild,
+            Valeriia Cherepanova, Hamid Kazemi,
+            Aniruddha Saha, Micah Goldblum,
+            Jonas Geiping and Tom Goldstein
+        </p>
+
+        <p>
+            Binoculars introduces a detection method based
+            on contrasting the outputs of two related
+            language models. The method is designed to
+            detect machine-generated text without requiring
+            training data for the detector.
+        </p>
+
+        <div class="paper-tags">
+            <span>LLMs</span>
+            <span>Zero-Shot</span>
+            <span>Machine Text</span>
+            <span>Language Models</span>
+        </div>
+
+    </div>
+
+
+    <!-- PROJECT CONNECTION -->
+
+    <div class="research-note">
+
+        <h2>
+            Connection to Our Project
+        </h2>
+
+        <p>
+            The research papers demonstrate different
+            approaches to AI-generated text detection.
+            Our project focuses on a Transformer-based
+            binary classification approach using a
+            fine-tuned RoBERTa model to classify text as
+            likely human-written or AI-generated.
+        </p>
+
+        <br>
+
+        <p>
+            The project demonstrates how Natural Language
+            Processing, deep learning and Transformer
+            architectures can be applied to the problem
+            of AI-generated text detection.
+        </p>
+
+    </div>
+
+
+    <div class="research-note">
+
+        <h2>
+            RoBERTa Foundation
+        </h2>
+
+        <p>
+            RoBERTa is a robustly optimized version of
+            BERT developed for language representation
+            learning. Its Transformer architecture makes
+            it suitable for downstream NLP classification
+            tasks.
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        AI Text Detection using Deep Learning and Transformer Models
+    </p>
+
+</footer>
+
+</body>
+
+</html>

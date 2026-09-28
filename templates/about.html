@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Detect | About</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+<nav class="navbar">
+
+    <a href="/" class="logo">
+        AI<span>Detect</span>
+    </a>
+
+    <div class="nav-links">
+
+        <a href="/">Home</a>
+        <a href="/detector">Detector</a>
+        <a href="/research">Research</a>
+        <a href="/about">About</a>
+
+    </div>
+
+</nav>
+
+
+<section class="content-page">
+
+    <div class="tag">
+        PROJECT METHODOLOGY
+    </div>
+
+    <h1>
+        How It Works
+    </h1>
+
+
+    <div class="method-grid">
+
+
+        <div class="method-card">
+
+            <div class="method-number">
+                01
+            </div>
+
+            <h2>
+                Text Input
+            </h2>
+
+            <p>
+                The user enters or pastes a piece
+                of text into the detection system.
+            </p>
+
+        </div>
+
+
+        <div class="method-card">
+
+            <div class="method-number">
+                02
+            </div>
+
+            <h2>
+                Tokenization
+            </h2>
+
+            <p>
+                The input text is converted into
+                tokens that can be processed by
+                the Transformer model.
+            </p>
+
+        </div>
+
+
+        <div class="method-card">
+
+            <div class="method-number">
+                03
+            </div>
+
+            <h2>
+                RoBERTa Model
+            </h2>
+
+            <p>
+                A fine-tuned RoBERTa Transformer
+                analyzes patterns within the text.
+            </p>
+
+        </div>
+
+
+        <div class="method-card">
+
+            <div class="method-number">
+                04
+            </div>
+
+            <h2>
+                Classification
+            </h2>
+
+            <p>
+                The model predicts whether the
+                input is likely human-written or
+                AI-generated.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="architecture">
+
+        <h2>
+            System Architecture
+        </h2>
+
+        <div class="architecture-flow">
+
+            <span>User Text</span>
+
+            <b>→</b>
+
+            <span>Tokenizer</span>
+
+            <b>→</b>
+
+            <span>RoBERTa</span>
+
+            <b>→</b>
+
+            <span>Classifier</span>
+
+            <b>→</b>
+
+            <span>AI / Human</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="limitations">
+
+        <h2>
+            Limitations
+        </h2>
+
+        <p>
+            AI-generated text detectors are probabilistic
+            systems. Their performance can vary depending
+            on the language, topic, writing style and
+            AI generator used to create the text.
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        AI Text Detection using Deep Learning and Transformer Models
+    </p>
+
+</footer>
+
+</body>
+
+</html>

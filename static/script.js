@@ -1,0 +1,1 @@
+console.log("AI Detect loaded successfully.");
